@@ -1,8 +1,5 @@
 package ru.sbt.homework6;
 
-/**
- * Created by Work on 25.08.2016.
- */
 public class Main {
 
 

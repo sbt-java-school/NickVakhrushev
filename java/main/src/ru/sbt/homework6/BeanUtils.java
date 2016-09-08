@@ -3,9 +3,6 @@ package ru.sbt.homework6;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/**
- * Created by Work on 25.08.2016.
- */
 public class BeanUtils {
     public static void assign(Object to, Object from) {
         Method[] declaredMethodsFrom = from.getClass().getDeclaredMethods();
