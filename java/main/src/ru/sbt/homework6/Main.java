@@ -6,7 +6,6 @@ package ru.sbt.homework6;
 public class Main {
 
 
-
     public static void main(String[] args) {
         From from1 = new From();
 
@@ -17,11 +16,11 @@ public class Main {
         from1.setSurname(123);
         from1.setTdyu("567");
 
-        BeanUtils.assign(fromTo,from1);
-        BeanUtils.assign(to,from1);
-        BeanUtils.assign(parentFrom,from1);
+        BeanUtils.assign(fromTo, from1);
+        BeanUtils.assign(to, from1);
+        BeanUtils.assign(parentFrom, from1);
 
-        int k=2;
+        int k = 2;
 
         int name = to.getName();
         int surname = fromTo.getSurname();
